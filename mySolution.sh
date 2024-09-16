@@ -5,4 +5,5 @@ cd secretDir || exit
 touch .secret
 chmod 600 .secret
 cd ../
+
 /bin/bash generateSecret.sh
